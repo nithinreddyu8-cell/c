@@ -5,7 +5,7 @@ int main(void)
     FILE *fp;
     int c;
 
-    fp = fopen("hello.txt", "r");
+    fp = fopen("", "r");
 
     while ((c = fgetc(fp)) != EOF)
         printf("%c", c);
